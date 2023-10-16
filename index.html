@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <div class="Guessing">
+            <div  class="MyLastGuess">
+               <span>MyLastGuess : </span><span id="MLG"></span>
+            </div>
+            <div class="GuessingWordMine">
+                <p id="gassingword"></p>
+            </div>
+            <input id="inputletter"  type="text">
+            <div class="btn">
+                
+                <button id="submitbtn">Submit</button>
+            </div>
+        </div>
+        <div id="mancontainer" class="man">
+            <div id="fail1" class="First"> </div>
+            <div id="fail2" class="Second"></div>
+            <div id="fail3" class="Third"></div>
+            <div id="fail4" class="Fourth"></div>
+            <div id="fail5" class="Fifth"></div>
+            <div id="fail6" class="Sixth"></div>
+            <div id="fail7" class="Seventh"></div>
+            <div id="fail8" class="Eighth"></div>
+            <div id="fail9" class="Nineth"></div>
+            <div id="fail10" class="Tenth"></div>
+        </div>
+        
+        <div class="overlay">
+            <div class="winnerpage">
+            <div><h1 id="result">You WON</h1></div>
+            <div><button  onClick="window.location.reload();">Play Again</button></div>
+        </div>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

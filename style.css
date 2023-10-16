@@ -1,0 +1,177 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(11, 12, 12);
+    color: white;
+}
+.man div{
+    display:none;
+}
+.Guessing{
+    margin-top:20px;
+    width:30%;
+    height:max-content;
+    border:2px solid white;
+    position:absolute;
+}
+
+.First{
+    position: absolute;
+    width: 11px;
+    height: 252px;
+    background-color: white;
+    transform: rotate(90deg);
+    left: 156px;
+    bottom:75px;
+}
+.Second{
+    position:absolute;
+    width: 11px;
+    height: 322px;
+    background-color: white;
+    left: 46px;
+    bottom:180px;
+}
+.Third{
+    position: absolute;
+    width:11px;
+    height: 322px;
+    background-color: white;
+    transform: rotate(90deg);
+    left: 186px;
+    bottom:330px;
+}
+.Fourth{
+    position: absolute;
+    width: 11px;
+    height: 70px;
+    background-color: white;
+    left: 333px;
+    bottom: 436px;
+}
+.Fifth{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    left: 309px;
+    bottom: 380px;
+    border-radius: 50%;
+}
+.Sixth{
+    position: absolute;
+    width: 11px;
+    height: 127px;
+    background-color: white;
+    left: 333px;
+    bottom: 259px;
+}
+.Seventh{
+    position: absolute;
+    width: 29px;
+    height: 97px;
+    background-color: white;
+    left: 283px;
+    bottom: 306px;
+    border-radius: 50%;
+    transform: rotate(135deg);
+}
+
+.Eighth{
+    position: absolute;
+    width: 29px;
+    height: 97px;
+    background-color: white;
+    left: 363px;
+    bottom: 306px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+.Nineth{
+    position: absolute;
+    width: 10px;
+    height: 97px;
+    background-color: white;
+    left: 294px;
+    bottom: 203px;
+    border-radius: 50%;
+    transform: rotate(-135deg);
+}
+.Tenth{
+    position: absolute;
+    width: 10px;
+    height: 97px;
+    background-color: white;
+    left: 371px;
+    bottom: 203px;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+.btn{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    padding:10px;
+    border:2px solid white;
+    margin-left:200px;
+
+}
+.btn button{
+    display:inline-block;
+    border:2px solid red;
+    background-color:rgb(28, 182, 28);
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+input{
+    display: inline-block;
+    margin-left:500px;
+    margin-top:10px;
+    background-color: rgb(162, 138, 201);
+}
+.MyLastGuess{
+    font-size:30px;
+}
+.GuessingWordMine p span{
+    padding:10px;
+}
+
+.overlay{
+    position: absolute;
+    text-align: center;
+    display:none;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    width: 100%;
+    height:100%;
+    background-color:rgb(11, 12, 12);
+    z-index:2;
+    border:2px solid white;
+}
+.overlay h1{
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:underline;
+    text-decoration-style:dashed;
+    padding-bottom:30px;
+}
+.winnerpage{
+    display: block;
+    margin-top:250px;
+}
+.winnerpage button{
+    border-radius:5px;
+    font-size:25px;
+    width:200px;
+    height:50px;
+    cursor: pointer;
+    border:2px solid blueviolet;
+    transition:1s;
+    margin-left:10px;
+}
+.winnerpage button:hover{
+    border-radius:20px;
+    background-color:rgba(148, 120, 195, 0.5);
+}
